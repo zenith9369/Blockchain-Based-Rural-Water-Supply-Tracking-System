@@ -300,8 +300,8 @@ export default function App() {
         Please provide your analysis.
         `;
         
-        const apiKey = "AIzaSyBK-J7tPRHn8rYo2L5NwAh_NdaIZgUVGuc"; // Canvas will provide this
-        const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=${apiKey}`;
+        const apiKey = ""; // Canvas will provide this
+        const apiUrl = ``;
 
         const payload = {
             contents: [{ parts: [{ text: userQuery }] }],
